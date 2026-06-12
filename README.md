@@ -1,44 +1,220 @@
-# Sales & Demand Forecasting for Businesses
+# Future Interns Machine Learning Projects (2026)
 
-## Project Overview
+## Overview
 
-This project predicts future sales using historical retail transaction data from the Online Retail Dataset.
+This repository contains three Machine Learning projects completed as part of the Future Interns Machine Learning Internship Program. These projects demonstrate practical applications of Machine Learning, Natural Language Processing (NLP), Time-Series Forecasting, and Business Analytics.
 
-## Objective
+---
 
-To forecast future sales and help businesses make better inventory and operational decisions.
+## Task 1: Sales & Demand Forecasting for Businesses
 
-## Tools & Technologies
+### Objective
+
+Develop a forecasting model to predict future sales or product demand using historical business data.
+
+### Features
+
+* Data cleaning and preprocessing
+* Time-based feature engineering
+* Sales forecasting using Machine Learning techniques
+* Model evaluation and error analysis
+* Business-friendly forecast visualizations
+
+### Technologies Used
 
 * Python
 * Pandas
 * NumPy
+* Scikit-learn
 * Matplotlib
-* Scikit-Learn
+
+### Skills Gained
+
+* Time-series analysis
+* Forecasting techniques
+* Business interpretation of predictive models
+* Data visualization
+
+### Deliverables
+
+* Forecasting model
+* Visual forecast reports
+* Business insights and recommendations
+
+---
+
+## Task 2: Support Ticket Classification System
+
+### Objective
+
+Build an NLP-based system that automatically classifies customer support tickets and assigns priority levels.
+
+### Features
+
+* Text preprocessing and cleaning
+* Tokenization and feature extraction
+* Ticket category classification
+* Priority assignment (High / Medium / Low)
+* Model performance evaluation
+
+### Technologies Used
+
+* Python
+* NLTK
+* Scikit-learn
+* Pandas
 * Jupyter Notebook
 
-## Machine Learning Model
+### Skills Gained
 
-Random Forest Regressor
+* Natural Language Processing
+* Text classification
+* Support analytics
+* Priority prediction
 
-## Key Features
+### Deliverables
 
-* Data Cleaning
+* Ticket classification model
+* Automated priority tagging system
+* Classification performance reports
+
+---
+
+## Task 3: Resume / Candidate Screening System
+
+### Objective
+
+Develop an intelligent resume screening system that evaluates and ranks candidates based on job requirements.
+
+### Features
+
+* Resume text cleaning and preprocessing
+* Skill extraction using NLP
+* Job description parsing
+* Resume-to-job similarity scoring
+* Candidate ranking based on role fit
+* Skill gap analysis
+
+### Technologies Used
+
+* Python
+* NLTK
+* Scikit-learn
+* Pandas
+* TF-IDF Vectorization
+* Cosine Similarity
+
+### Skills Gained
+
+* Resume parsing
+* Feature extraction
+* Candidate scoring and ranking
+* Explainable AI techniques
+
+### Deliverables
+
+* Resume screening and ranking system
+* Candidate match scoring
+* Skill gap identification report
+
+---
+
+## Repository Structure
+
+```text
+Future_ML_Projects/
+│
+├── Task1_Sales_Forecasting/
+│   ├── notebooks/
+│   ├── data/
+│   └── outputs/
+│
+├── Task2_Support_Ticket_Classification/
+│   ├── notebooks/
+│   ├── models/
+│   └── outputs/
+│
+├── Task3_Resume_Screening_System/
+│   ├── notebooks/
+│   ├── models/
+│   └── outputs/
+│
+├── README.md
+└── requirements.txt
+```
+
+---
+
+## Datasets
+
+The datasets used in these projects are publicly available.
+
+### Sales Forecasting Dataset
+
+Historical sales and demand records used for forecasting future trends.
+
+### Support Ticket Dataset
+
+Customer support tickets containing issue descriptions and categories.
+
+### Resume Screening Dataset
+
+* Resume Dataset
+* Job Description Dataset
+
+Due to GitHub file size limitations, datasets are not included in this repository. Please download them from their respective sources before running the projects.
+
+---
+
+## Installation
+
+```bash
+git clone <repository-url>
+cd Future_ML_Projects
+
+pip install -r requirements.txt
+```
+
+---
+
+## Results
+
+### Task 1
+
+* Generated future sales forecasts
+* Identified business demand trends
+
+### Task 2
+
+* Automated ticket categorization
+* Assigned support priority levels
+
+### Task 3
+
+* Ranked candidates based on job-role similarity
+* Identified missing skills and qualification gaps
+
+---
+
+## Learning Outcomes
+
+Through these projects, I gained hands-on experience in:
+
+* Machine Learning
+* Natural Language Processing (NLP)
+* Time-Series Forecasting
 * Feature Engineering
-* Sales Forecasting
+* Data Visualization
+* Business Analytics
 * Model Evaluation
-* Forecast Visualization
+* Explainable AI
 
-## Business Impact
-
-The forecast helps businesses:
-
-* Manage inventory efficiently
-* Estimate future demand
-* Improve staffing and budgeting decisions
-* Reduce overstocking and stock shortages
+---
 
 ## Author
 
-Rodda Nagasravani
+**Rodda Nagasravani**
+B.Tech Computer Science and Engineering
 VIT-AP University
+
+Future Interns Machine Learning Internship Program – 2026
