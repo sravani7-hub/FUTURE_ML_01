@@ -162,7 +162,19 @@ Customer support tickets containing issue descriptions and categories.
 * Resume Dataset
 * Job Description Dataset
 
-Due to GitHub file size limitations, datasets are not included in this repository. Please download them from their respective sources before running the projects.
+### Note
+
+The datasets are not included in this repository due to GitHub file size limitations and dataset licensing considerations.
+
+Please download the datasets from their original sources and place them in the appropriate project data folders before running the notebooks.
+
+#### Resume Dataset
+
+https://www.kaggle.com/datasets/snehaanbhawal/resume-dataset
+
+#### Job Description Dataset
+
+https://www.kaggle.com/datasets/PromptCloudHQ/us-jobs-on-monstercom
 
 ---
 
@@ -183,16 +195,19 @@ pip install -r requirements.txt
 
 * Generated future sales forecasts
 * Identified business demand trends
+* Created visual forecast reports for business decision-making
 
 ### Task 2
 
 * Automated ticket categorization
 * Assigned support priority levels
+* Improved support workflow through intelligent ticket routing
 
 ### Task 3
 
 * Ranked candidates based on job-role similarity
 * Identified missing skills and qualification gaps
+* Automated resume screening using NLP techniques
 
 ---
 
@@ -208,6 +223,29 @@ Through these projects, I gained hands-on experience in:
 * Business Analytics
 * Model Evaluation
 * Explainable AI
+* Text Classification
+* Candidate Ranking Systems
+
+---
+
+## Requirements
+
+```text
+pandas
+numpy
+nltk
+scikit-learn
+matplotlib
+spacy
+openpyxl
+streamlit
+```
+
+Install all dependencies using:
+
+```bash
+pip install -r requirements.txt
+```
 
 ---
 
